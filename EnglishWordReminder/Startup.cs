@@ -41,7 +41,7 @@ namespace EnglishWordReminder
             provider.UseScheduler(scheduler =>
             {
                 scheduler.Schedule<BotJob>()
-                .Hourly();
+                .EveryThirtyMinutes();
             });
 
             if (env.IsDevelopment())
