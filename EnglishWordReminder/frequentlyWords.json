@@ -1016,6 +1016,10 @@
    "english": "to listen"
  },
  {
+   "turkish": "disiplin",
+   "english": "discipline"
+ },
+ {
    "turkish": "diş",
    "english": "tooth"
  },
@@ -1368,6 +1372,10 @@
    "english": "bad"
  },
  {
+   "turkish": "festival",
+   "english": "festival , carnival"
+ },
+ {
    "turkish": "fırçalamak",
    "english": "to brush"
  },
@@ -1590,6 +1598,10 @@
  {
    "turkish": "gram",
    "english": "gram"
+ },
+ {
+   "turkish": "grafik",
+   "english": "graphic"
  },
  {
    "turkish": "güç",
@@ -2079,6 +2091,10 @@
    "turkish": "kapamak",
    "english": "to close, shut"
  },
+  {
+   "turkish": "kapasite",
+   "english": "capacity"
+ },
  {
    "turkish": "kapı",
    "english": "door, gate"
@@ -2102,6 +2118,10 @@
  {
    "turkish": "karanlık",
    "english": "dark"
+ },
+ {
+   "turkish": "karantina",
+   "english": "lockdown, quarantine"
  },
  {
    "turkish": "karar",
@@ -2222,6 +2242,10 @@
  {
    "turkish": "kere",
    "english": "time"
+ },
+ {
+   "turkish": "kesinlikle",
+   "english": "definitely , exactly"
  },
  {
    "turkish": "kesmek",
@@ -2666,6 +2690,10 @@
  {
    "turkish": "mor",
    "english": "purple"
+ },
+ {
+   "turkish": "motivasyon",
+   "english": "motivation"
  },
  {
    "turkish": "muhteşem",
@@ -3642,6 +3670,10 @@
  {
    "turkish": "tanışmak",
    "english": "to meet, make acquaintance"
+ },
+ {
+   "turkish": "tanıtım",
+   "english": "showcase, introducing"
  },
  {
    "turkish": "tanrı",
