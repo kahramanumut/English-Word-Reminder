@@ -108,6 +108,14 @@
    "english": "wise, intelligent"
  },
  {
+   "turkish": "akıcı",
+   "english": "fluent"
+ },
+ {
+   "turkish": "akıcı bir şekilde",
+   "english": "fluently"
+ },
+ {
    "turkish": "akmak",
    "english": "to flow, to leak"
  },
@@ -604,6 +612,10 @@
    "english": "height, stature, length"
  },
  {
+   "turkish": "boylam",
+   "english": "longitude"
+ },
+ {
    "turkish": "boyun",
    "english": "neck, cervix; responsibility"
  },
@@ -1096,6 +1108,10 @@
    "english": "stop, stopping place"
  },
  {
+   "turkish": "duraksamak",
+   "english": "pause"
+ },
+ {
    "turkish": "durmak",
    "english": "to stop, stand"
  },
@@ -1226,6 +1242,10 @@
  {
    "turkish": "en",
    "english": "width; hefty, huge; most"
+ },
+ {
+   "turkish": "enlem",
+   "english": "latidude"
  },
  {
    "turkish": "enerji",
@@ -2648,6 +2668,10 @@
    "english": "purple"
  },
  {
+   "turkish": "muhteşem",
+   "english": "fabolous"
+ },
+ {
    "turkish": "musluk",
    "english": "tap, faucet"
  },
@@ -2678,6 +2702,10 @@
  {
    "turkish": "mühim",
    "english": "important, significant"
+ },
+ {
+   "turkish": "mükemmel",
+   "english": "excellent"
  },
  {
    "turkish": "mümkün",
@@ -3232,6 +3260,10 @@
    "english": "to think"
  },
  {
+   "turkish": "saray",
+   "english": "palace"
+ },
+ {
    "turkish": "sarı",
    "english": "yellow; pale"
  },
@@ -3296,6 +3328,10 @@
    "english": "year"
  },
  {
+   "turkish": "senin",
+   "english": "your"
+ },
+ {
    "turkish": "serbest",
    "english": "free, independent"
  },
@@ -3317,7 +3353,7 @@
  },
  {
    "turkish": "sevgili",
-   "english": "beloved, dear"
+   "english": "beloved, dear, darling"
  },
  {
    "turkish": "sevinç",
@@ -4070,6 +4106,10 @@
  {
    "turkish": "yasak",
    "english": "prohibition, ban, prohibited"
+ },
+ {
+   "turkish": "yastık",
+   "english": "pillow"
  },
  {
    "turkish": "yaş",
