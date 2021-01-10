@@ -108,6 +108,14 @@
    "english": "wise, intelligent"
  },
  {
+   "turkish": "akıcı",
+   "english": "fluent"
+ },
+ {
+   "turkish": "akıcı bir şekilde",
+   "english": "fluently"
+ },
+ {
    "turkish": "akmak",
    "english": "to flow, to leak"
  },
@@ -604,6 +612,10 @@
    "english": "height, stature, length"
  },
  {
+   "turkish": "boylam",
+   "english": "longitude"
+ },
+ {
    "turkish": "boyun",
    "english": "neck, cervix; responsibility"
  },
@@ -1004,6 +1016,10 @@
    "english": "to listen"
  },
  {
+   "turkish": "disiplin",
+   "english": "discipline"
+ },
+ {
    "turkish": "diş",
    "english": "tooth"
  },
@@ -1094,6 +1110,10 @@
  {
    "turkish": "durak",
    "english": "stop, stopping place"
+ },
+ {
+   "turkish": "duraksamak",
+   "english": "pause"
  },
  {
    "turkish": "durmak",
@@ -1228,6 +1248,10 @@
    "english": "width; hefty, huge; most"
  },
  {
+   "turkish": "enlem",
+   "english": "latidude"
+ },
+ {
    "turkish": "enerji",
    "english": "energy"
  },
@@ -1346,6 +1370,10 @@
  {
    "turkish": "fena",
    "english": "bad"
+ },
+ {
+   "turkish": "festival",
+   "english": "festival , carnival"
  },
  {
    "turkish": "fırçalamak",
@@ -1570,6 +1598,10 @@
  {
    "turkish": "gram",
    "english": "gram"
+ },
+ {
+   "turkish": "grafik",
+   "english": "graphic"
  },
  {
    "turkish": "güç",
@@ -2059,6 +2091,10 @@
    "turkish": "kapamak",
    "english": "to close, shut"
  },
+  {
+   "turkish": "kapasite",
+   "english": "capacity"
+ },
  {
    "turkish": "kapı",
    "english": "door, gate"
@@ -2082,6 +2118,10 @@
  {
    "turkish": "karanlık",
    "english": "dark"
+ },
+ {
+   "turkish": "karantina",
+   "english": "lockdown, quarantine"
  },
  {
    "turkish": "karar",
@@ -2202,6 +2242,10 @@
  {
    "turkish": "kere",
    "english": "time"
+ },
+ {
+   "turkish": "kesinlikle",
+   "english": "definitely , exactly"
  },
  {
    "turkish": "kesmek",
@@ -2648,6 +2692,14 @@
    "english": "purple"
  },
  {
+   "turkish": "motivasyon",
+   "english": "motivation"
+ },
+ {
+   "turkish": "muhteşem",
+   "english": "fabolous"
+ },
+ {
    "turkish": "musluk",
    "english": "tap, faucet"
  },
@@ -2678,6 +2730,10 @@
  {
    "turkish": "mühim",
    "english": "important, significant"
+ },
+ {
+   "turkish": "mükemmel",
+   "english": "excellent"
  },
  {
    "turkish": "mümkün",
@@ -3232,6 +3288,10 @@
    "english": "to think"
  },
  {
+   "turkish": "saray",
+   "english": "palace"
+ },
+ {
    "turkish": "sarı",
    "english": "yellow; pale"
  },
@@ -3296,6 +3356,10 @@
    "english": "year"
  },
  {
+   "turkish": "senin",
+   "english": "your"
+ },
+ {
    "turkish": "serbest",
    "english": "free, independent"
  },
@@ -3317,7 +3381,7 @@
  },
  {
    "turkish": "sevgili",
-   "english": "beloved, dear"
+   "english": "beloved, dear, darling"
  },
  {
    "turkish": "sevinç",
@@ -3606,6 +3670,10 @@
  {
    "turkish": "tanışmak",
    "english": "to meet, make acquaintance"
+ },
+ {
+   "turkish": "tanıtım",
+   "english": "showcase, introducing"
  },
  {
    "turkish": "tanrı",
@@ -4070,6 +4138,10 @@
  {
    "turkish": "yasak",
    "english": "prohibition, ban, prohibited"
+ },
+ {
+   "turkish": "yastık",
+   "english": "pillow"
  },
  {
    "turkish": "yaş",
