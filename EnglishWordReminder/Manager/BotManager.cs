@@ -1,4 +1,5 @@
 ﻿using EnglishWordReminder.Models;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -15,11 +16,13 @@ namespace EnglishWordReminder.Manager
     {
         public static List<WordModel> wordList;
         private TelegramBotClient _botClient;
+        private string channelId;
 
-        public BotManager()
+        public BotManager(IConfiguration configuration)
         {
             wordList = JsonSerializer.Deserialize<List<WordModel>>(File.ReadAllText("frequentlyWords.json"));
-            _botClient = new TelegramBotClient("Bot Key"); 
+            _botClient = new TelegramBotClient(configuration.GetSection("BotKey").Value);
+            channelId = configuration.GetSection("ChannelId").Value;
         }
 
         public async Task SendWordQuestion(QuestionTypeEnum questionType)
@@ -51,7 +54,7 @@ namespace EnglishWordReminder.Manager
             int correctOptionId = question.Options.FindIndex(x => x == questionWordList[0].English || x == questionWordList[0].Turkish);
 
             
-            var result = await _botClient.SendPollAsync("Channel or Group ID", question.Word, question.Options, correctOptionId: correctOptionId, type: PollType.Quiz);
+            var result = await _botClient.SendPollAsync(channelId, question.Word, question.Options, correctOptionId: correctOptionId, type: PollType.Quiz);
 
         }
 

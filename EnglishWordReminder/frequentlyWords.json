@@ -160,10 +160,6 @@
     "turkish": "ziraat"
   },
   {
-    "english": "AIDS",
-    "turkish": "aids"
-  },
-  {
     "english": "aid",
     "turkish": "yardım etmek"
   },
@@ -1293,11 +1289,11 @@
   },
   {
     "english": "decrease",
-    "turkish": "küçülm"
+    "turkish": "küçülmek"
   },
   {
     "english": "deeply",
-    "turkish": "son de"
+    "turkish": "derinden"
   },
   {
     "english": "defeat",
@@ -2097,7 +2093,7 @@
   },
   {
     "english": "flexible",
-    "turkish": "bükülg"
+    "turkish": "esnek"
   },
   {
     "english": "float",
@@ -2161,7 +2157,7 @@
   },
   {
     "english": "fortunate",
-    "turkish": "akgünlü"
+    "turkish": "şanslı"
   },
   {
     "english": "fortune",
@@ -2169,7 +2165,7 @@
   },
   {
     "english": "forum",
-    "turkish": "toplantı"
+    "turkish": "oturum"
   },
   {
     "english": "forward",
@@ -2201,7 +2197,7 @@
   },
   {
     "english": "framework",
-    "turkish": "kadro"
+    "turkish": "çerçeve"
   },
   {
     "english": "fraud",
@@ -2293,7 +2289,7 @@
   },
   {
     "english": "generate",
-    "turkish": "meyda"
+    "turkish": "üretmek"
   },
   {
     "english": "genetic",
@@ -2301,7 +2297,7 @@
   },
   {
     "english": "genius",
-    "turkish": "dahi [i."
+    "turkish": "dahi"
   },
   {
     "english": "genre",
