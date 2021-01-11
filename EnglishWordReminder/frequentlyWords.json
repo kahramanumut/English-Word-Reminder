@@ -69,7 +69,7 @@
   },
   {
     "english": "acid",
-    "turkish": "ekşime"
+    "turkish": "ekşi"
   },
   {
     "english": "acknowledge",
@@ -82,10 +82,6 @@
   {
     "english": "activate",
     "turkish": "çalıştırmak"
-  },
-  {
-    "english": "actual",
-    "turkish": "aktüel"
   },
   {
     "english": "adapt",
@@ -129,7 +125,7 @@
   },
   {
     "english": "advance",
-    "turkish": "terfi et"
+    "turkish": "ilerlemek"
   },
   {
     "english": "affair",
@@ -137,7 +133,7 @@
   },
   {
     "english": "affordable",
-    "turkish": "bütçey"
+    "turkish": "uygun fiyatlı"
   },
   {
     "english": "afterwards",
@@ -173,11 +169,11 @@
   },
   {
     "english": "alien",
-    "turkish": "yabancı uyruklu kimse"
+    "turkish": "yabancı"
   },
   {
     "english": "alongside",
-    "turkish": "yanına"
+    "turkish": "yanında"
   },
   {
     "english": "alter",
@@ -186,10 +182,6 @@
   {
     "english": "altogether",
     "turkish": "hep beraber"
-  },
-  {
-    "english": "ambulance",
-    "turkish": "ambulans"
   },
   {
     "english": "amount",
@@ -214,10 +206,6 @@
   {
     "english": "angle",
     "turkish": "açı"
-  },
-  {
-    "english": "animation",
-    "turkish": "çizgi film yapma"
   },
   {
     "english": "anniversary",
@@ -293,7 +281,7 @@
   },
   {
     "english": "artificial",
-    "turkish": "yapma"
+    "turkish": "yapay"
   },
   {
     "english": "artistic",
@@ -313,7 +301,7 @@
   },
   {
     "english": "aspect",
-    "turkish": "hal"
+    "turkish": "görünüş"
   },
   {
     "english": "assess",
@@ -321,7 +309,7 @@
   },
   {
     "english": "assessment",
-    "turkish": "değerl"
+    "turkish": "değerlendirme"
   },
   {
     "english": "asset",
@@ -329,7 +317,7 @@
   },
   {
     "english": "assign",
-    "turkish": "devret"
+    "turkish": "atamak"
   },
   {
     "english": "assistance",
@@ -337,7 +325,7 @@
   },
   {
     "english": "associate",
-    "turkish": "ilişkilendirmek"
+    "turkish": "ortak"
   },
   {
     "english": "associated",
@@ -376,28 +364,12 @@
     "turkish": "ses"
   },
   {
-    "english": "automatic",
-    "turkish": "otomatik"
-  },
-  {
-    "english": "automatically",
-    "turkish": "özdevimlice"
-  },
-  {
     "english": "awareness",
     "turkish": "farkındalık"
   },
   {
     "english": "awkward",
     "turkish": "beceriksiz"
-  },
-  {
-    "english": "back",
-    "turkish": "art"
-  },
-  {
-    "english": "bacteria",
-    "turkish": "bakteri"
   },
   {
     "english": "badge",
@@ -412,10 +384,6 @@
     "turkish": "bale"
   },
   {
-    "english": "balloon",
-    "turkish": "balon"
-  },
-  {
     "english": "bar",
     "turkish": "çubuk"
   },
@@ -425,7 +393,7 @@
   },
   {
     "english": "bargain",
-    "turkish": "kelepir"
+    "turkish": "pazarlık"
   },
   {
     "english": "barrier",
@@ -450,10 +418,6 @@
   {
     "english": "battle",
     "turkish": "savaş"
-  },
-  {
-    "english": "bear",
-    "turkish": "dayanmak"
   },
   {
     "english": "beat",
@@ -504,10 +468,6 @@
     "turkish": "senet"
   },
   {
-    "english": "biological",
-    "turkish": "yaşambilimsel"
-  },
-  {
     "english": "bitter",
     "turkish": "acı"
   },
@@ -516,28 +476,20 @@
     "turkish": "suçlamak"
   },
   {
-    "english": "blanket",
-    "turkish": "battan"
-  },
-  {
     "english": "blind",
     "turkish": "kör"
   },
   {
     "english": "blow",
-    "turkish": "esmek"
+    "turkish": "darbe"
   },
   {
     "english": "bold",
-    "turkish": "gözüpek"
+    "turkish": "cesur"
   },
   {
     "english": "bombing",
-    "turkish": "bombalı eylem"
-  },
-  {
-    "english": "bond",
-    "turkish": "tutturmak"
+    "turkish": "bombalamak"
   },
   {
     "english": "booking",
@@ -545,7 +497,7 @@
   },
   {
     "english": "boost",
-    "turkish": "alttan yukarıya ittirmek"
+    "turkish": "artırmak"
   },
   {
     "english": "border",
@@ -573,7 +525,7 @@
   },
   {
     "english": "broad",
-    "turkish": "engin"
+    "turkish": "geniş"
   },
   {
     "english": "broadcast",
@@ -633,11 +585,7 @@
   },
   {
     "english": "cancel",
-    "turkish": "feshetmek"
-  },
-  {
-    "english": "cancer",
-    "turkish": "kanser"
+    "turkish": "iptal"
   },
   {
     "english": "candle",
@@ -656,12 +604,8 @@
     "turkish": "esir almak"
   },
   {
-    "english": "carbon",
-    "turkish": "karbon"
-  },
-  {
     "english": "cast",
-    "turkish": "dökmek"
+    "turkish": "döküm"
   },
   {
     "english": "casual",
@@ -669,7 +613,7 @@
   },
   {
     "english": "catch",
-    "turkish": "enselemek"
+    "turkish": "yakalamak"
   },
   {
     "english": "cave",
@@ -697,11 +641,11 @@
   },
   {
     "english": "chairman",
-    "turkish": "başkan (yönetim kurulu)"
+    "turkish": "başkan"
   },
   {
     "english": "challenge",
-    "turkish": "düelloya davet etmek"
+    "turkish": "meydan okuma"
   },
   {
     "english": "challenging",
@@ -709,7 +653,7 @@
   },
   {
     "english": "championship",
-    "turkish": "şampiy"
+    "turkish": "şampiyon"
   },
   {
     "english": "characteristic",
@@ -717,7 +661,7 @@
   },
   {
     "english": "charming",
-    "turkish": "cazibel"
+    "turkish": "cazibeli"
   },
   {
     "english": "chart",
@@ -749,7 +693,7 @@
   },
   {
     "english": "circuit",
-    "turkish": "çevrim"
+    "turkish": "devre"
   },
   {
     "english": "circumstance",
@@ -773,11 +717,7 @@
   },
   {
     "english": "clarify",
-    "turkish": "berraklaşmak"
-  },
-  {
-    "english": "classic",
-    "turkish": "klasik"
+    "turkish": "netleştirmek"
   },
   {
     "english": "classify",
@@ -789,19 +729,15 @@
   },
   {
     "english": "clerk",
-    "turkish": "yazman"
+    "turkish": "katip"
   },
   {
     "english": "cliff",
     "turkish": "uçurum"
   },
   {
-    "english": "clinic",
-    "turkish": "klinik"
-  },
-  {
     "english": "clip",
-    "turkish": "kırkmak"
+    "turkish": "kırpmak"
   },
   {
     "english": "close",
@@ -813,15 +749,15 @@
   },
   {
     "english": "coincidence",
-    "turkish": "rastlantı"
+    "turkish": "tesadüf"
   },
   {
     "english": "collapse",
-    "turkish": "yığılmak"
+    "turkish": "çöküş"
   },
   {
     "english": "collector",
-    "turkish": "toplaç"
+    "turkish": "toplayıcı"
   },
   {
     "english": "colony",
@@ -840,10 +776,6 @@
     "turkish": "rahatlık"
   },
   {
-    "english": "comic",
-    "turkish": "komik"
-  },
-  {
     "english": "command",
     "turkish": "emretmek"
   },
@@ -857,7 +789,7 @@
   },
   {
     "english": "commitment",
-    "turkish": "bağlılık"
+    "turkish": "taahhür"
   },
   {
     "english": "committee",
@@ -881,7 +813,7 @@
   },
   {
     "english": "complicated",
-    "turkish": "çetrefil"
+    "turkish": "karmaşık"
   },
   {
     "english": "component",
@@ -893,27 +825,27 @@
   },
   {
     "english": "composer",
-    "turkish": "yazar"
+    "turkish": "besteci"
   },
   {
     "english": "compound",
-    "turkish": "şiddetlendirmek"
+    "turkish": "bileşik"
   },
   {
     "english": "comprehensive",
-    "turkish": "etraflı"
+    "turkish": "kapsamlı"
   },
   {
     "english": "comprise",
-    "turkish": "kapsa"
+    "turkish": "kapsamak"
   },
   {
     "english": "compulsory",
-    "turkish": "zorunl"
+    "turkish": "zorunlu"
   },
   {
     "english": "concentration",
-    "turkish": "yığma"
+    "turkish": "yoğunlaşma"
   },
   {
     "english": "concept",
@@ -949,7 +881,7 @@
   },
   {
     "english": "confusing",
-    "turkish": "şaşırtma"
+    "turkish": "şaşırtıcı"
   },
   {
     "english": "confusion",
@@ -1013,7 +945,7 @@
   },
   {
     "english": "consult",
-    "turkish": "başvurmak"
+    "turkish": "danışmak"
   },
   {
     "english": "consultant",
@@ -1033,7 +965,7 @@
   },
   {
     "english": "contract",
-    "turkish": "(hastalığa) yakalanmak"
+    "turkish": "sözleşme"
   },
   {
     "english": "contribute",
@@ -1049,7 +981,7 @@
   },
   {
     "english": "controversy",
-    "turkish": "ihtilaf"
+    "turkish": "tartışma"
   },
   {
     "english": "convenience",
@@ -1073,7 +1005,7 @@
   },
   {
     "english": "convinced",
-    "turkish": "inandırılan"
+    "turkish": "ikna olmuş"
   },
   {
     "english": "convincing",
@@ -1089,7 +1021,7 @@
   },
   {
     "english": "corporate",
-    "turkish": "şirkete ait"
+    "turkish": "kurumsal"
   },
   {
     "english": "corporation",
@@ -1121,7 +1053,7 @@
   },
   {
     "english": "crack",
-    "turkish": "yarılmak"
+    "turkish": "çatlamak"
   },
   {
     "english": "craft",
@@ -1173,7 +1105,7 @@
   },
   {
     "english": "criticism",
-    "turkish": "tenkit"
+    "turkish": "eleştiri"
   },
   {
     "english": "criticize",
@@ -1297,7 +1229,7 @@
   },
   {
     "english": "defeat",
-    "turkish": "yenme"
+    "turkish": "yenmek"
   },
   {
     "english": "defence",
@@ -1346,10 +1278,6 @@
   {
     "english": "democracy",
     "turkish": "demokratlık"
-  },
-  {
-    "english": "democratic",
-    "turkish": "demokratik partiye ait"
   },
   {
     "english": "demonstrate",
@@ -1449,7 +1377,7 @@
   },
   {
     "english": "disability",
-    "turkish": "malullük"
+    "turkish": "sakatlık"
   },
   {
     "english": "disabled",
@@ -1477,7 +1405,7 @@
   },
   {
     "english": "discount",
-    "turkish": "tenzilat"
+    "turkish": "indirim"
   },
   {
     "english": "discourage",
@@ -1485,15 +1413,15 @@
   },
   {
     "english": "dishonest",
-    "turkish": "namus"
+    "turkish": "dürüst olmayan"
   },
   {
     "english": "dismiss",
-    "turkish": "azletm"
+    "turkish": "kovmak"
   },
   {
     "english": "disorder",
-    "turkish": "kargaş"
+    "turkish": "kargaşa"
   },
   {
     "english": "display",
@@ -1537,7 +1465,7 @@
   },
   {
     "english": "diverse",
-    "turkish": "çeşit çeşit"
+    "turkish": "çeşitli"
   },
   {
     "english": "diversity",
@@ -1581,7 +1509,7 @@
   },
   {
     "english": "downtown",
-    "turkish": "çarşı"
+    "turkish": "şehir merkezi"
   },
   {
     "english": "downwards",
@@ -1621,19 +1549,11 @@
   },
   {
     "english": "duration",
-    "turkish": "müddet"
+    "turkish": "süre"
   },
   {
     "english": "dynamic",
     "turkish": "hareketli"
-  },
-  {
-    "english": "economics",
-    "turkish": "ülke ekonomisi"
-  },
-  {
-    "english": "economist",
-    "turkish": "ekonomist"
   },
   {
     "english": "edit",
@@ -1642,10 +1562,6 @@
   {
     "english": "edition",
     "turkish": "yayım"
-  },
-  {
-    "english": "editorial",
-    "turkish": "başmakale"
   },
   {
     "english": "efficient",
@@ -1668,10 +1584,6 @@
     "turkish": "seçmek"
   },
   {
-    "english": "electronics",
-    "turkish": "elektronik bilimi"
-  },
-  {
     "english": "elegant",
     "turkish": "şık"
   },
@@ -1689,11 +1601,11 @@
   },
   {
     "english": "embrace",
-    "turkish": "kucakl"
+    "turkish": "kucaklamak"
   },
   {
     "english": "emerge",
-    "turkish": "yücelm"
+    "turkish": "ortaya çıkmak"
   },
   {
     "english": "emission",
@@ -1729,7 +1641,7 @@
   },
   {
     "english": "engage",
-    "turkish": "angaje etmek"
+    "turkish": "bağlanmak"
   },
   {
     "english": "enhance",
@@ -1769,7 +1681,7 @@
   },
   {
     "english": "entrepreneur",
-    "turkish": "müteşebbis"
+    "turkish": "girişimci"
   },
   {
     "english": "envelope",
@@ -1885,7 +1797,7 @@
   },
   {
     "english": "existence",
-    "turkish": "mevcu"
+    "turkish": "mevcudiyet"
   },
   {
     "english": "exit",
@@ -1929,11 +1841,11 @@
   },
   {
     "english": "extend",
-    "turkish": "sunmak (taziye/kutlama)"
+    "turkish": "genişletmek"
   },
   {
     "english": "extension",
-    "turkish": "uzatma"
+    "turkish": "uzantı"
   },
   {
     "english": "extensive",
@@ -1981,11 +1893,11 @@
   },
   {
     "english": "failure",
-    "turkish": "yapmama"
+    "turkish": "başarısızlık"
   },
   {
     "english": "faith",
-    "turkish": "güven"
+    "turkish": "inanç"
   },
   {
     "english": "fake",
@@ -1993,7 +1905,7 @@
   },
   {
     "english": "fame",
-    "turkish": "nam"
+    "turkish": "ün"
   },
   {
     "english": "fantasy",
@@ -2005,7 +1917,7 @@
   },
   {
     "english": "fault",
-    "turkish": "fay"
+    "turkish": "hata"
   },
   {
     "english": "favour",
@@ -2036,10 +1948,6 @@
     "turkish": "hissetmek"
   },
   {
-    "english": "fellow",
-    "turkish": "herif"
-  },
-  {
     "english": "fever",
     "turkish": "ateş"
   },
@@ -2049,7 +1957,7 @@
   },
   {
     "english": "file",
-    "turkish": "eğe"
+    "turkish": "dosya"
   },
   {
     "english": "finance",
@@ -2057,7 +1965,7 @@
   },
   {
     "english": "finding",
-    "turkish": "bulma"
+    "turkish": "bulgu"
   },
   {
     "english": "firefighter",
@@ -2117,7 +2025,7 @@
   },
   {
     "english": "following",
-    "turkish": "taraftarlar"
+    "turkish": "takip etme"
   },
   {
     "english": "fond",
@@ -2189,11 +2097,11 @@
   },
   {
     "english": "fraction",
-    "turkish": "fraksiyon"
+    "turkish": "kesir"
   },
   {
     "english": "fragment",
-    "turkish": "fragman"
+    "turkish": "parça"
   },
   {
     "english": "framework",
@@ -2292,10 +2200,6 @@
     "turkish": "üretmek"
   },
   {
-    "english": "genetic",
-    "turkish": "geneti"
-  },
-  {
     "english": "genius",
     "turkish": "dahi"
   },
@@ -2310,10 +2214,6 @@
   {
     "english": "genuinely",
     "turkish": "gerçekten"
-  },
-  {
-    "english": "gig",
-    "turkish": "zıpkın ile balık yakalamak"
   },
   {
     "english": "globalization",
@@ -2364,14 +2264,6 @@
     "turkish": "bağışlamak"
   },
   {
-    "english": "graphic",
-    "turkish": "grafik"
-  },
-  {
-    "english": "graphics",
-    "turkish": "grafik sanatlar"
-  },
-  {
     "english": "greatly",
     "turkish": "çok"
   },
@@ -2389,7 +2281,7 @@
   },
   {
     "english": "guideline",
-    "turkish": "hakim"
+    "turkish": "yönerge"
   },
   {
     "english": "habitat",
@@ -2397,11 +2289,11 @@
   },
   {
     "english": "handle",
-    "turkish": "idare etmek"
+    "turkish": "işlemek"
   },
   {
     "english": "harbour",
-    "turkish": "barındırmak"
+    "turkish": "liman"
   },
   {
     "english": "harm",
@@ -2413,7 +2305,7 @@
   },
   {
     "english": "headquarters",
-    "turkish": "merkez"
+    "turkish": "genel merkez"
   },
   {
     "english": "heal",
@@ -2469,7 +2361,7 @@
   },
   {
     "english": "hilarious",
-    "turkish": "gürültülü ve neşeli"
+    "turkish": "gürültülü, neşeli"
   },
   {
     "english": "hip",
@@ -2485,11 +2377,11 @@
   },
   {
     "english": "hold",
-    "turkish": "sahip o"
+    "turkish": "sahip olmak"
   },
   {
     "english": "hollow",
-    "turkish": "oyuk [i"
+    "turkish": "oyuk"
   },
   {
     "english": "holy",
@@ -2505,7 +2397,7 @@
   },
   {
     "english": "honour",
-    "turkish": "şereflendirmek"
+    "turkish": "onur"
   },
   {
     "english": "hook",
@@ -2513,7 +2405,7 @@
   },
   {
     "english": "hopefully",
-    "turkish": "ümitle"
+    "turkish": "umutla"
   },
   {
     "english": "host",
@@ -2560,20 +2452,12 @@
     "turkish": "hipotez"
   },
   {
-    "english": "icon",
-    "turkish": "ikona"
-  },
-  {
     "english": "ideal",
     "turkish": "ülkü"
   },
   {
-    "english": "identical",
-    "turkish": "özdeş"
-  },
-  {
     "english": "illusion",
-    "turkish": "kuruntu"
+    "turkish": "yanılsama"
   },
   {
     "english": "illustrate",
@@ -2652,10 +2536,6 @@
     "turkish": "özgürlük"
   },
   {
-    "english": "index",
-    "turkish": "indekslemek"
-  },
-  {
     "english": "indication",
     "turkish": "belirti"
   },
@@ -2665,15 +2545,15 @@
   },
   {
     "english": "inevitable",
-    "turkish": "kaçınıl"
+    "turkish": "kaçınılmaz"
   },
   {
     "english": "infection",
-    "turkish": "enfeks"
+    "turkish": "enfeksiyon"
   },
   {
     "english": "infer",
-    "turkish": "anlam"
+    "turkish": "anlam çıkarmak"
   },
   {
     "english": "inflation",
@@ -2776,10 +2656,6 @@
     "turkish": "enstitü"
   },
   {
-    "english": "institution",
-    "turkish": "enstitü"
-  },
-  {
     "english": "insurance",
     "turkish": "sigorta"
   },
@@ -2853,15 +2729,11 @@
   },
   {
     "english": "isolated",
-    "turkish": "izole [s"
+    "turkish": "izole"
   },
   {
     "english": "jail",
     "turkish": "hapis"
-  },
-  {
-    "english": "jet",
-    "turkish": "jet uçağı ile uçmak"
   },
   {
     "english": "joint",
@@ -2997,15 +2869,11 @@
   },
   {
     "english": "literally",
-    "turkish": "kelime kelime"
+    "turkish": "gerçekten"
   },
   {
     "english": "literary",
     "turkish": "edebi"
-  },
-  {
-    "english": "litre",
-    "turkish": "litre"
   },
   {
     "english": "lively",
@@ -3104,14 +2972,6 @@
     "turkish": "harita"
   },
   {
-    "english": "marathon",
-    "turkish": "maraton"
-  },
-  {
-    "english": "margin",
-    "turkish": "marj"
-  },
-  {
     "english": "marker",
     "turkish": "işaret"
   },
@@ -3134,18 +2994,6 @@
   {
     "english": "matching",
     "turkish": "karşılaştırma"
-  },
-  {
-    "english": "mate",
-    "turkish": "mat"
-  },
-  {
-    "english": "material",
-    "turkish": "materyal"
-  },
-  {
-    "english": "maximum",
-    "turkish": "maksimum"
   },
   {
     "english": "mayor",
@@ -3196,10 +3044,6 @@
     "turkish": "hatırlanmaya değer"
   },
   {
-    "english": "metaphor",
-    "turkish": "metafor"
-  },
-  {
     "english": "military",
     "turkish": "askeri"
   },
@@ -3221,7 +3065,7 @@
   },
   {
     "english": "minor",
-    "turkish": "rüştünü ispat etmemiş kimse"
+    "turkish": "reşit olmayan"
   },
   {
     "english": "minority",
@@ -3309,7 +3153,7 @@
   },
   {
     "english": "multiple",
-    "turkish": "multipl"
+    "turkish": "çoklu"
   },
   {
     "english": "multiply",
@@ -3340,10 +3184,6 @@
     "turkish": "ulusal"
   },
   {
-    "english": "navigation",
-    "turkish": "navigasyon"
-  },
-  {
     "english": "nearby",
     "turkish": "yakında"
   },
@@ -3354,10 +3194,6 @@
   {
     "english": "necessity",
     "turkish": "gereklilik"
-  },
-  {
-    "english": "negative",
-    "turkish": "negatif"
   },
   {
     "english": "negotiate",
@@ -3389,7 +3225,7 @@
   },
   {
     "english": "norm",
-    "turkish": "kaide"
+    "turkish": "standart"
   },
   {
     "english": "notebook",
@@ -3504,10 +3340,6 @@
     "turkish": "açıkça"
   },
   {
-    "english": "opera",
-    "turkish": "opera"
-  },
-  {
     "english": "operate",
     "turkish": "ameliyat etmek"
   },
@@ -3534,14 +3366,6 @@
   {
     "english": "optimistic",
     "turkish": "iyimser"
-  },
-  {
-    "english": "orchestra",
-    "turkish": "orkestra"
-  },
-  {
-    "english": "organ",
-    "turkish": "organ"
   },
   {
     "english": "organic",
@@ -3577,7 +3401,7 @@
   },
   {
     "english": "overall",
-    "turkish": "bir uçtan bir uca"
+    "turkish": "tüm"
   },
   {
     "english": "overcome",
@@ -3625,11 +3449,7 @@
   },
   {
     "english": "parade",
-    "turkish": "geçit t"
-  },
-  {
-    "english": "parallel",
-    "turkish": "aynı d"
+    "turkish": "geçit töreni"
   },
   {
     "english": "parliament",
@@ -3821,11 +3641,11 @@
   },
   {
     "english": "precisely",
-    "turkish": "açık ol"
+    "turkish": "açık olarak"
   },
   {
     "english": "predictable",
-    "turkish": "önced"
+    "turkish": "tahmin edilebilir"
   },
   {
     "english": "preference",
@@ -3865,7 +3685,7 @@
   },
   {
     "english": "principal",
-    "turkish": "okul müdürü"
+    "turkish": "müdür"
   },
   {
     "english": "principle",
@@ -3896,10 +3716,6 @@
     "turkish": "olası"
   },
   {
-    "english": "procedure",
-    "turkish": "prosedür"
-  },
-  {
     "english": "proceed",
     "turkish": "ilerlemek"
   },
@@ -3910,10 +3726,6 @@
   {
     "english": "produce",
     "turkish": "üretmek"
-  },
-  {
-    "english": "professional",
-    "turkish": "profesyonel"
   },
   {
     "english": "programming",
@@ -3969,23 +3781,11 @@
   },
   {
     "english": "protection",
-    "turkish": "himaye"
-  },
-  {
-    "english": "protein",
-    "turkish": "protein"
+    "turkish": "koruma"
   },
   {
     "english": "protester",
     "turkish": "protestocu"
-  },
-  {
-    "english": "psychological",
-    "turkish": "ruhbilimsel"
-  },
-  {
-    "english": "psychology",
-    "turkish": "ruh bilimi"
   },
   {
     "english": "publication",
@@ -4025,7 +3825,7 @@
   },
   {
     "english": "pursuit",
-    "turkish": "kovala"
+    "turkish": "kovalama"
   },
   {
     "english": "puzzle",
@@ -4041,7 +3841,7 @@
   },
   {
     "english": "racism",
-    "turkish": "anasoyculuk"
+    "turkish": "ırkçılık"
   },
   {
     "english": "racist",
@@ -4053,15 +3853,15 @@
   },
   {
     "english": "rail",
-    "turkish": "ray döşemek"
+    "turkish": "demiryolu"
   },
   {
     "english": "random",
-    "turkish": "gelişigüzel"
+    "turkish": "rasgeler"
   },
   {
     "english": "range",
-    "turkish": "silsile"
+    "turkish": "aralık, menzil"
   },
   {
     "english": "rank",
@@ -4409,15 +4209,11 @@
   },
   {
     "english": "saving",
-    "turkish": "tasarru"
+    "turkish": "tasarruf"
   },
   {
     "english": "scale",
-    "turkish": "ölçekle"
-  },
-  {
-    "english": "scandal",
-    "turkish": "skanda"
+    "turkish": "ölçeklendirmek"
   },
   {
     "english": "scare",
@@ -4433,7 +4229,7 @@
   },
   {
     "english": "scheme",
-    "turkish": "fesat karıştırmak"
+    "turkish": "plan, düzen"
   },
   {
     "english": "scholar",
@@ -4492,10 +4288,6 @@
     "turkish": "öz"
   },
   {
-    "english": "seminar",
-    "turkish": "seminer"
-  },
-  {
     "english": "senior",
     "turkish": "kıdemli"
   },
@@ -4513,11 +4305,11 @@
   },
   {
     "english": "sequence",
-    "turkish": "silsile"
+    "turkish": "dizi, sıra"
   },
   {
     "english": "session",
-    "turkish": "celse"
+    "turkish": "celse, oturum"
   },
   {
     "english": "settle",
@@ -4529,7 +4321,7 @@
   },
   {
     "english": "severe",
-    "turkish": "haşin"
+    "turkish": "şiddetli, sert"
   },
   {
     "english": "severely",
@@ -4585,7 +4377,7 @@
   },
   {
     "english": "shooting",
-    "turkish": "ateş etme"
+    "turkish": "ateş etmek"
   },
   {
     "english": "shore",
@@ -4653,7 +4445,7 @@
   },
   {
     "english": "slide",
-    "turkish": "sürgü"
+    "turkish": "sürgü, kaymak"
   },
   {
     "english": "slight",
@@ -4664,16 +4456,12 @@
     "turkish": "kaymak"
   },
   {
-    "english": "slogan",
-    "turkish": "slogan"
-  },
-  {
     "english": "slope",
-    "turkish": "meyil"
+    "turkish": "meyil, eğim"
   },
   {
     "english": "so-called",
-    "turkish": "sözde"
+    "turkish": "sözde, lafta"
   },
   {
     "english": "solar",
@@ -4901,7 +4689,7 @@
   },
   {
     "english": "subject",
-    "turkish": "ders"
+    "turkish": "ders, konu"
   },
   {
     "english": "submit",
@@ -4957,7 +4745,7 @@
   },
   {
     "english": "survey",
-    "turkish": "araştırma"
+    "turkish": "araştırma, anket"
   },
   {
     "english": "survival",
@@ -5020,12 +4808,8 @@
     "turkish": "yırtılmak"
   },
   {
-    "english": "technological",
-    "turkish": "teknolojik"
-  },
-  {
     "english": "teens",
-    "turkish": "yeniyetmelik"
+    "turkish": "yeniyetmelik, ergen"
   },
   {
     "english": "temple",
@@ -5201,7 +4985,7 @@
   },
   {
     "english": "trap",
-    "turkish": "kapan"
+    "turkish": "kapan, tuzak"
   },
   {
     "english": "treasure",
@@ -5218,10 +5002,6 @@
   {
     "english": "trigger",
     "turkish": "tetiklemek"
-  },
-  {
-    "english": "trillion",
-    "turkish": "trilyon"
   },
   {
     "english": "trip",
@@ -5312,10 +5092,6 @@
     "turkish": "birlik"
   },
   {
-    "english": "universal",
-    "turkish": "üniversal"
-  },
-  {
     "english": "universe",
     "turkish": "alem"
   },
@@ -5358,10 +5134,6 @@
   {
     "english": "value",
     "turkish": "değer"
-  },
-  {
-    "english": "variation",
-    "turkish": "varyasyon"
   },
   {
     "english": "vast",
@@ -5418,10 +5190,6 @@
   {
     "english": "vital",
     "turkish": "yaşamsal"
-  },
-  {
-    "english": "vitamin",
-    "turkish": "vitamin"
   },
   {
     "english": "volume",
