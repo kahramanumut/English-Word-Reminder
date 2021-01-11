@@ -168,6 +168,10 @@
    "english": "gold"
  },
  {
+   "turkish": "altında",
+   "english": "below"
+ },
+ {
    "turkish": "altmış",
    "english": "sixty"
  },
@@ -233,7 +237,7 @@
  },
  {
    "turkish": "artık",
-   "english": "left over, remnant, extra ; for now, henceforth"
+   "english": "left over, remnant, extra ; for now, henceforth ; anymore"
  },
  {
    "turkish": "arzu",
@@ -284,6 +288,10 @@
    "english": "shoe"
  },
  {
+   "turkish": "ayarlar",
+   "english": "settings"
+ },
+ {
    "turkish": "aydınlık",
    "english": "light, brightness"
  },
@@ -317,7 +325,7 @@
  },
  {
    "turkish": "baba",
-   "english": "father"
+   "english": "father , dad"
  },
  {
    "turkish": "bacak",
@@ -505,7 +513,7 @@
  },
  {
    "turkish": "bıçak",
-   "english": "knife"
+   "english": "knife , knive"
  },
  {
    "turkish": "bırakmak",
@@ -521,7 +529,7 @@
  },
  {
    "turkish": "bile",
-   "english": "even, already"
+   "english": "even"
  },
  {
    "turkish": "bilet",
@@ -820,6 +828,14 @@
    "english": "a quarter, one fourth"
  },
  {
+   "turkish": "çığ",
+   "english": "avalanche"
+ },
+ {
+   "turkish": "çığlık",
+   "english": "scream"
+ },
+ {
    "turkish": "çıkarmak",
    "english": "to take out, send out, expel, to publish"
  },
@@ -930,6 +946,10 @@
  {
    "turkish": "değişmek",
    "english": "to change"
+ },
+ {
+   "turkish": "deli",
+   "english": "crazy,insane"
  },
  {
    "turkish": "delik",
@@ -1715,6 +1735,10 @@
    "turkish": "hasta",
    "english": "sick"
  },
+  {
+   "turkish": "hastalık",
+   "english": "sickness"
+ },
  {
    "turkish": "hastabakıcı",
    "english": "nurse's aide"
@@ -1726,6 +1750,10 @@
  {
    "turkish": "hat",
    "english": "route ; line ; stripe ; contour"
+ },
+ {
+   "turkish": "hata",
+   "english": "error , exception"
  },
  {
    "turkish": "hatırlamak",
@@ -1825,7 +1853,7 @@
  },
  {
    "turkish": "hiç",
-   "english": "never, not at all"
+   "english": "never, not at all ,any"
  },
  {
    "turkish": "hissetmek",
@@ -3004,6 +3032,10 @@
    "english": "private"
  },
  {
+   "turkish": "özellikle",
+   "english": "specially"
+ },
+ {
    "turkish": "özür",
    "english": "excuse; defect"
  },
@@ -3748,6 +3780,10 @@
    "english": "to repeat"
  },
  {
+   "turkish": "telaffuz",
+   "english": "pronounce"
+ },
+ {
    "turkish": "telefon",
    "english": "telephone"
  },
@@ -4034,6 +4070,10 @@
  {
    "turkish": "ve",
    "english": "and"
+ },
+ {
+   "turkish": "vektör",
+   "english": "vector"
  },
  {
    "turkish": "vermek",
@@ -4341,11 +4381,15 @@
  },
  {
    "turkish": "zaten",
-   "english": "anyway; besides"
+   "english": "anyway; besides ,already"
  },
  {
    "turkish": "zengin",
    "english": "rich"
+ },
+ {
+   "turkish": "zenginleştirilmiş",
+   "english": "enriched"
  },
  {
    "turkish": "zeytin",
