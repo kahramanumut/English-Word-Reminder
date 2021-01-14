@@ -1,5 +1,14 @@
 [
   {
+    {"english": "surgery",
+    "turkish": "ameliyat"
+    },
+   {"english": "needle",
+    "turkish": "iğne"
+   },
+  {"english": "calm",
+    "turkish": "sakin"
+  },
     "english": "abandon",
     "turkish": "terk etmek"
   },
