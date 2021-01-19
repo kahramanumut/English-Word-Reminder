@@ -43,13 +43,13 @@ namespace EnglishWordReminder.Manager
                     question.Options.Add(questionWordList[3].Turkish);
                     break;
                 case QuestionTypeEnum.WordTurkishToEnglish:
-                    break;
-                default:
                     question.Question = questionWordList[0].Turkish;
                     question.Options.Add(questionWordList[0].English);
                     question.Options.Add(questionWordList[1].English);
                     question.Options.Add(questionWordList[2].English);
                     question.Options.Add(questionWordList[3].English);
+                    break;
+                default:
                     break;
             }
 
