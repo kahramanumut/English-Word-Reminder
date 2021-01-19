@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Telegram.Bot;
@@ -27,6 +26,7 @@ namespace EnglishWordReminder.Manager
 
         public async Task SendWordQuestion(QuestionTypeEnum questionType)
         {
+
             Random rnd = new Random();
 
             List<WordModel> questionWordList = wordList.OrderBy(x => Guid.NewGuid()).Take(5).ToList();
@@ -35,15 +35,16 @@ namespace EnglishWordReminder.Manager
 
             if (questionType == QuestionTypeEnum.WordEnglishToTurkish)
             {
-                question.Word = questionWordList[0].English;
+                question.Question = questionWordList[0].English;
                 question.Options.Add(questionWordList[0].Turkish);
                 question.Options.Add(questionWordList[1].Turkish);
                 question.Options.Add(questionWordList[2].Turkish);
                 question.Options.Add(questionWordList[3].Turkish);
+
             }
             else
             {
-                question.Word = questionWordList[0].Turkish;
+                question.Question = questionWordList[0].Turkish;
                 question.Options.Add(questionWordList[0].English);
                 question.Options.Add(questionWordList[1].English);
                 question.Options.Add(questionWordList[2].English);
@@ -51,10 +52,9 @@ namespace EnglishWordReminder.Manager
             }
 
             question.Options = question.Options.OrderBy(x => Guid.NewGuid()).ToList();
-            int correctOptionId = question.Options.FindIndex(x => x == questionWordList[0].English || x == questionWordList[0].Turkish);
-
+            question.AnswerId = question.Options.FindIndex(x => x == questionWordList[0].English || x == questionWordList[0].Turkish);
             
-            var result = await _botClient.SendPollAsync(channelId, question.Word, question.Options, correctOptionId: correctOptionId, type: PollType.Quiz);
+            await _botClient.SendPollAsync(channelId, question.Question, question.Options, correctOptionId: question.AnswerId, type: PollType.Quiz, explanation: $"Hadi <a href=\"https://tureng.com/en/turkish-english/{question.Word}\">buradan</a> doğru cevaba bakalım", explanationParseMode: ParseMode.Html);
 
         }
 

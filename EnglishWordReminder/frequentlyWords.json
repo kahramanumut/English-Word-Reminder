@@ -12,10 +12,6 @@
     "turkish": "soyutlamak"
   },
   {
-    "english": "academic",
-    "turkish": "akademik"
-  },
-  {
     "english": "accent",
     "turkish": "şive"
   },
@@ -84,10 +80,6 @@
     "turkish": "çalıştırmak"
   },
   {
-    "english": "adapt",
-    "turkish": "adapte etmek"
-  },
-  {
     "english": "addiction",
     "turkish": "düşkünlük"
   },
@@ -100,16 +92,12 @@
     "turkish": "bundan başka"
   },
   {
-    "english": "address",
-    "turkish": "hitap etmek"
-  },
-  {
     "english": "adequate",
     "turkish": "yeterli"
   },
   {
     "english": "adequately",
-    "turkish": "layıkıyle"
+    "turkish": "layıkıyla"
   },
   {
     "english": "adjust",
@@ -568,20 +556,8 @@
     "turkish": "ancak"
   },
   {
-    "english": "cabin",
-    "turkish": "kabin"
-  },
-  {
-    "english": "cable",
-    "turkish": "kablo"
-  },
-  {
     "english": "calculate",
     "turkish": "hesap etmek"
-  },
-  {
-    "english": "canal",
-    "turkish": "kanal"
   },
   {
     "english": "cancel",
@@ -784,10 +760,6 @@
     "turkish": "komutan"
   },
   {
-    "english": "commission",
-    "turkish": "komisyon"
-  },
-  {
     "english": "commitment",
     "turkish": "taahhür"
   },
@@ -806,10 +778,6 @@
   {
     "english": "completion",
     "turkish": "bitirme"
-  },
-  {
-    "english": "complex",
-    "turkish": "karışık"
   },
   {
     "english": "complicated",
@@ -1064,10 +1032,6 @@
     "turkish": "çarpışmak"
   },
   {
-    "english": "creation",
-    "turkish": "kreasyon"
-  },
-  {
     "english": "creativity",
     "turkish": "yaratıcılık"
   },
@@ -1276,10 +1240,6 @@
     "turkish": "talep etmek"
   },
   {
-    "english": "democracy",
-    "turkish": "demokratlık"
-  },
-  {
     "english": "demonstrate",
     "turkish": "ispat etmek"
   },
@@ -1396,14 +1356,6 @@
     "turkish": "hüsran"
   },
   {
-    "english": "disc",
-    "turkish": "disk"
-  },
-  {
-    "english": "discipline",
-    "turkish": "disiplin"
-  },
-  {
     "english": "discount",
     "turkish": "indirim"
   },
@@ -1434,6 +1386,10 @@
   {
     "english": "distinct",
     "turkish": "belirgin"
+  },
+  {
+    "english": "distinctively",
+    "turkish": "ayırt edici bir şekilde"
   },
   {
     "english": "distinguish",
@@ -1526,14 +1482,6 @@
   {
     "english": "drag",
     "turkish": "sürüklemek"
-  },
-  {
-    "english": "dramatic",
-    "turkish": "dramatik"
-  },
-  {
-    "english": "dramatically",
-    "turkish": "dramatik bir biçimde"
   },
   {
     "english": "drought",
@@ -1724,18 +1672,6 @@
     "turkish": "kestirmek"
   },
   {
-    "english": "ethic",
-    "turkish": "ahlak sistemi"
-  },
-  {
-    "english": "ethical",
-    "turkish": "ahlaka uygun"
-  },
-  {
-    "english": "ethnic",
-    "turkish": "etnik"
-  },
-  {
     "english": "evaluate",
     "turkish": "değerlendirmek"
   },
@@ -1777,7 +1713,7 @@
   },
   {
     "english": "excessive",
-    "turkish": "haddinden fazla"
+    "turkish": "aşırı, haddinden fazla"
   },
   {
     "english": "exclude",
@@ -1926,10 +1862,6 @@
   {
     "english": "feather",
     "turkish": "kuş tüyü"
-  },
-  {
-    "english": "federal",
-    "turkish": "federal"
   },
   {
     "english": "fee",
@@ -2237,7 +2169,7 @@
   },
   {
     "english": "govern",
-    "turkish": "kontrol etmek"
+    "turkish": "yönetmek"
   },
   {
     "english": "governor",
@@ -2273,7 +2205,7 @@
   },
   {
     "english": "grocery",
-    "turkish": "bakkaliye"
+    "turkish": "bakkal"
   },
   {
     "english": "guarantee",
@@ -2721,7 +2653,7 @@
   },
   {
     "english": "investor",
-    "turkish": "sermayeci"
+    "turkish": "yatırımcı"
   },
   {
     "english": "isolate",
@@ -2750,14 +2682,6 @@
   {
     "english": "judgement",
     "turkish": "yargı"
-  },
-  {
-    "english": "junior",
-    "turkish": "iki kişiden küçük olanı"
-  },
-  {
-    "english": "jury",
-    "turkish": "jüri"
   },
   {
     "english": "justice",
@@ -2804,7 +2728,7 @@
     "turkish": "başlatmak"
   },
   {
-    "english": "latidude",
+    "english": "latitude",
     "turkish": "enlem"
   },
   {
@@ -2838,10 +2762,6 @@
   {
     "english": "level",
     "turkish": "seviye"
-  },
-  {
-    "english": "licence",
-    "turkish": "lisans"
   },
   {
     "english": "lifetime",
@@ -2890,14 +2810,6 @@
   {
     "english": "lockdown",
     "turkish": "karantina"
-  },
-  {
-    "english": "logical",
-    "turkish": "mantıklı (kimse)"
-  },
-  {
-    "english": "logo",
-    "turkish": "logo"
   },
   {
     "english": "long-term",
@@ -3140,10 +3052,6 @@
     "turkish": "motive etmek"
   },
   {
-    "english": "motivation",
-    "turkish": "motivasyon"
-  },
-  {
     "english": "mount",
     "turkish": "binmek"
   },
@@ -3277,11 +3185,11 @@
   },
   {
     "english": "observation",
-    "turkish": "gözetl"
+    "turkish": "gözlem, gözetleme"
   },
   {
     "english": "observe",
-    "turkish": "gözlem"
+    "turkish": "gözlemek"
   },
   {
     "english": "observer",
@@ -3325,7 +3233,7 @@
   },
   {
     "english": "official",
-    "turkish": "memur"
+    "turkish": "resmi"
   },
   {
     "english": "ongoing",
@@ -3333,7 +3241,7 @@
   },
   {
     "english": "opening",
-    "turkish": "açma"
+    "turkish": "açılış"
   },
   {
     "english": "openly",
@@ -3434,18 +3342,6 @@
   {
     "english": "packet",
     "turkish": "paket"
-  },
-  {
-    "english": "palm",
-    "turkish": "palmiye"
-  },
-  {
-    "english": "panel",
-    "turkish": "pano"
-  },
-  {
-    "english": "panic",
-    "turkish": "panik yapmak"
   },
   {
     "english": "parade",
@@ -3604,16 +3500,8 @@
     "turkish": "mevki"
   },
   {
-    "english": "positive",
-    "turkish": "pozitif"
-  },
-  {
     "english": "possess",
     "turkish": "sahip olmak"
-  },
-  {
-    "english": "potential",
-    "turkish": "potansiyel"
   },
   {
     "english": "potentially",
@@ -3728,10 +3616,6 @@
     "turkish": "üretmek"
   },
   {
-    "english": "programming",
-    "turkish": "programlama"
-  },
-  {
     "english": "progress",
     "turkish": "gelişmek"
   },
@@ -3744,16 +3628,8 @@
     "turkish": "önlemek"
   },
   {
-    "english": "project",
-    "turkish": "proje"
-  },
-  {
     "english": "promising",
     "turkish": "geleceği parlak"
-  },
-  {
-    "english": "promotion",
-    "turkish": "promosyon"
   },
   {
     "english": "prompt",
@@ -3782,10 +3658,6 @@
   {
     "english": "protection",
     "turkish": "koruma"
-  },
-  {
-    "english": "protester",
-    "turkish": "protestocu"
   },
   {
     "english": "publication",
@@ -3857,7 +3729,7 @@
   },
   {
     "english": "random",
-    "turkish": "rasgeler"
+    "turkish": "rasgele"
   },
   {
     "english": "range",
@@ -4024,6 +3896,10 @@
     "turkish": "dikkat çekecek derecede"
   },
   {
+    "english": "renuncuation",
+    "turkish": "feragat, vazgeçme"
+  },
+  {
     "english": "reporting",
     "turkish": "raporlama"
   },
@@ -4140,14 +4016,6 @@
     "turkish": "hırsızlık"
   },
   {
-    "english": "rocket",
-    "turkish": "roket"
-  },
-  {
-    "english": "romance",
-    "turkish": "romantizm"
-  },
-  {
     "english": "root",
     "turkish": "köken"
   },
@@ -4162,10 +4030,6 @@
   {
     "english": "round",
     "turkish": "yuvarlak"
-  },
-  {
-    "english": "routine",
-    "turkish": "rutin"
   },
   {
     "english": "rub",
@@ -4473,7 +4337,7 @@
   },
   {
     "english": "sometime",
-    "turkish": "sabık"
+    "turkish": "bazen"
   },
   {
     "english": "somewhat",
@@ -4561,7 +4425,7 @@
   },
   {
     "english": "sponsor",
-    "turkish": "kefil olmak"
+    "turkish": "kefil"
   },
   {
     "english": "sponsorship",
@@ -4724,10 +4588,6 @@
     "turkish": "toplam"
   },
   {
-    "english": "super",
-    "turkish": "süper"
-  },
-  {
     "english": "surgeon",
     "turkish": "cerrah"
   },
@@ -4792,10 +4652,6 @@
     "turkish": "masal"
   },
   {
-    "english": "tank",
-    "turkish": "tank"
-  },
-  {
     "english": "tap",
     "turkish": "hafifçe vurmak"
   },
@@ -4828,10 +4684,6 @@
     "turkish": "eğilim"
   },
   {
-    "english": "tension",
-    "turkish": "tansiyon"
-  },
-  {
     "english": "term",
     "turkish": "dönem"
   },
@@ -4848,18 +4700,6 @@
     "turkish": "yöre"
   },
   {
-    "english": "terror",
-    "turkish": "terör"
-  },
-  {
-    "english": "terrorism",
-    "turkish": "terörism"
-  },
-  {
-    "english": "terrorist",
-    "turkish": "terörist"
-  },
-  {
     "english": "testing",
     "turkish": "deneme"
   },
@@ -4872,16 +4712,8 @@
     "turkish": "hırsızlık"
   },
   {
-    "english": "therapist",
-    "turkish": "terapist"
-  },
-  {
     "english": "therapy",
     "turkish": "iyileştirme"
-  },
-  {
-    "english": "thesis",
-    "turkish": "tez"
   },
   {
     "english": "thorough",
@@ -5012,10 +4844,6 @@
     "turkish": "topluca ilerlemek"
   },
   {
-    "english": "tropical",
-    "turkish": "tropikal"
-  },
-  {
     "english": "trouble",
     "turkish": "sorun"
   },
@@ -5034,10 +4862,6 @@
   {
     "english": "tune",
     "turkish": "akort etmek"
-  },
-  {
-    "english": "tunnel",
-    "turkish": "tünel"
   },
   {
     "english": "ultimate",
@@ -5338,10 +5162,6 @@
   {
     "english": "wrap",
     "turkish": "sarmak"
-  },
-  {
-    "english": "wrist",
-    "turkish": "krank pimi"
   },
   {
     "english": "wrong",
