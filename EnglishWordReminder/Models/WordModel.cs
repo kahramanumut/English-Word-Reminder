@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Text.Json.Serialization;
+﻿using System.Text.Json.Serialization;
 
 namespace EnglishWordReminder.Models
 {
@@ -9,6 +6,7 @@ namespace EnglishWordReminder.Models
     {
         [JsonPropertyName("turkish")]
         public string Turkish { get; set; }
+        
         [JsonPropertyName("english")]
         public string English { get; set; }
     }
