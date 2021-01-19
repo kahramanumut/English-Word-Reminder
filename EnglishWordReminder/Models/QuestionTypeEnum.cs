@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace EnglishWordReminder.Models
+﻿namespace EnglishWordReminder.Models
 {
     public enum QuestionTypeEnum
     {
