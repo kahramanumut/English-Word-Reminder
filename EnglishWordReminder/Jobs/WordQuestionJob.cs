@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace EnglishWordReminder.Jobs
 {
-    public class BotJob : IInvocable
+    public class WordQuestionJob : IInvocable
     {
         private readonly BotManager _botManager;
-        public BotJob(BotManager botManager)
+        public WordQuestionJob(BotManager botManager)
         {
             _botManager = botManager;
         }

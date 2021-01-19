@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EnglishWordReminder.Extentions
+namespace EnglishWordReminder.Extensions
 {
     public static class EnumerableExtension
     {

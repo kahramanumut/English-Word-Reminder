@@ -29,7 +29,8 @@ namespace EnglishWordReminder
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<BotManager>();
-            services.AddScoped<BotJob>();
+            services.AddScoped<WordQuestionJob>();
+            services.AddScoped<FillBlankJob>();
             services.AddScheduler();
             services.AddControllers();
         }
@@ -40,8 +41,12 @@ namespace EnglishWordReminder
             var provider = app.ApplicationServices;
             provider.UseScheduler(scheduler =>
             {
-                scheduler.Schedule<BotJob>()
+                scheduler.Schedule<WordQuestionJob>()
                 .EveryThirtyMinutes();
+
+                scheduler.Schedule<FillBlankJob>()
+                //.Cron("* * * * *");
+                .Cron("0 */6 * * *");
             });
 
             if (env.IsDevelopment())
