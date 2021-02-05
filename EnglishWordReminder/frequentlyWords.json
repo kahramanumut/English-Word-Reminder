@@ -696,6 +696,10 @@
     "turkish": "netleştirmek"
   },
   {
+    "english": "clarity",
+    "turkish": "belirginlik"
+  },
+  {
     "english": "classify",
     "turkish": "sınıflandırmak"
   },
@@ -914,6 +918,10 @@
   {
     "english": "consult",
     "turkish": "danışmak"
+  },
+  {
+    "english": "consultancy",
+    "turkish": "danışmanlık"
   },
   {
     "english": "consultant",
@@ -1212,6 +1220,10 @@
     "turkish": "gecikmek"
   },
   {
+    "english": "delegate",
+    "turkish": "temsilci"
+  },
+  {
     "english": "delete",
     "turkish": "silmek"
   },
@@ -1278,6 +1290,10 @@
   {
     "english": "depth",
     "turkish": "derinlik"
+  },
+  {
+    "english": "deputy",
+    "turkish": "milletvekili"
   },
   {
     "english": "derive",
@@ -2326,6 +2342,10 @@
   {
     "english": "honesty",
     "turkish": "dürüstlük"
+  },
+  {
+    "english": "honorific",
+    "turkish": "onursal"
   },
   {
     "english": "honour",
@@ -3900,6 +3920,10 @@
     "turkish": "feragat, vazgeçme"
   },
   {
+    "english": "repeatedly",
+    "turkish": "defaatle"
+  },
+  {
     "english": "reporting",
     "turkish": "raporlama"
   },
@@ -4468,6 +4492,10 @@
     "turkish": "açlıktan ölmek"
   },
   {
+    "english": "statable",
+    "turkish": "beyan edilebilir"
+  },
+  {
     "english": "status",
     "turkish": "hal"
   },
@@ -4574,6 +4602,10 @@
   {
     "english": "suffering",
     "turkish": "mihnet"
+  },
+  {
+    "english": "sufficiency",
+    "turkish": "kifayet"
   },
   {
     "english": "sufficient",
