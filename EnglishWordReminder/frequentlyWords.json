@@ -20,6 +20,10 @@
     "turkish": "kabul edilir"
   },
   {
+    "english": "accidental",
+    "turkish": "rastlantısal"
+  },
+  {
     "english": "accidentally",
     "turkish": "kazara"
   },
@@ -456,6 +460,10 @@
     "turkish": "senet"
   },
   {
+    "english": "birth",
+    "turkish": "tevellüt"
+  },
+  {
     "english": "bitter",
     "turkish": "acı"
   },
@@ -466,6 +474,10 @@
   {
     "english": "blind",
     "turkish": "kör"
+  },
+  {
+    "english": "blockade",
+    "turkish": "ablukaya almak"
   },
   {
     "english": "blow",
@@ -1456,6 +1468,10 @@
     "turkish": "boşanmak"
   },
   {
+    "english": "doctrinal",
+    "turkish": "öğretisel"
+  },
+  {
     "english": "document",
     "turkish": "doküman"
   },
@@ -1670,6 +1686,10 @@
   {
     "english": "erupt",
     "turkish": "patlak vermek"
+  },
+  {
+    "english": "esoteric",
+    "turkish": "ufak bir gruba özgü"
   },
   {
     "english": "essentially",
@@ -2398,6 +2418,10 @@
   {
     "english": "hurt",
     "turkish": "acımak"
+  },
+  {
+    "english": "hyacinth",
+    "turkish": "sümbül"
   },
   {
     "english": "hypothesis",
@@ -3164,6 +3188,10 @@
     "turkish": "düşünce"
   },
   {
+    "english": "notional",
+    "turkish": "kavramsal"
+  },
+  {
     "english": "novelist",
     "turkish": "romancı"
   },
@@ -3426,6 +3454,10 @@
   {
     "english": "pension",
     "turkish": "emekli maaşı"
+  },
+  {
+    "english": "peony",
+    "turkish": "şakayık"
   },
   {
     "english": "perceive",
@@ -3958,6 +3990,10 @@
   {
     "english": "resist",
     "turkish": "direnmek"
+  },
+  {
+    "english": "resistance",
+    "turkish": "mukavemet"
   },
   {
     "english": "resolution",
@@ -5066,6 +5102,10 @@
   {
     "english": "wander",
     "turkish": "başıboş dolaşmak"
+  },
+  {
+    "english": "wantonness",
+    "turkish": "sebebsizlik"
   },
   {
     "english": "warming",
