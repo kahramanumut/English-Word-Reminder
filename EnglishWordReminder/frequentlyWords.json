@@ -152,10 +152,6 @@
     "turkish": "uçak"
   },
   {
-    "english": "alarm",
-    "turkish": "alarm"
-  },
-  {
     "english": "alien",
     "turkish": "yabancı"
   },
@@ -2181,7 +2177,7 @@
   },
   {
     "english": "grade",
-    "turkish": "puanlamak"
+    "turkish": "derece"
   },
   {
     "english": "gradually",
@@ -3004,10 +3000,6 @@
     "turkish": "kip"
   },
   {
-    "english": "model",
-    "turkish": "model"
-  },
-  {
     "english": "modest",
     "turkish": "mütevazı"
   },
@@ -3065,7 +3057,7 @@
   },
   {
     "english": "multiply",
-    "turkish": "yayılmak"
+    "turkish": "çarpmak"
   },
   {
     "english": "mysterious",
@@ -3156,10 +3148,6 @@
     "turkish": "sayısız"
   },
   {
-    "english": "nursing",
-    "turkish": "bakma"
-  },
-  {
     "english": "nutrition",
     "turkish": "beslenme"
   },
@@ -3181,7 +3169,7 @@
   },
   {
     "english": "obligation",
-    "turkish": "yüküm"
+    "turkish": "yükümlülük"
   },
   {
     "english": "observation",
@@ -3729,7 +3717,7 @@
   },
   {
     "english": "random",
-    "turkish": "rasgele"
+    "turkish": "rastgele"
   },
   {
     "english": "range",
@@ -3885,11 +3873,11 @@
   },
   {
     "english": "remark",
-    "turkish": "belirtm"
+    "turkish": "açıklama"
   },
   {
     "english": "remarkable",
-    "turkish": "dikkat"
+    "turkish": "dikkate değer"
   },
   {
     "english": "remarkably",
@@ -4721,7 +4709,7 @@
   },
   {
     "english": "thoroughly",
-    "turkish": "adamakıllı"
+    "turkish": "iyice"
   },
   {
     "english": "threat",
