@@ -5162,5 +5162,29 @@
   {
     "english": "zone",
     "turkish": "kuşak"
+  },
+  {
+    "english": "campaign",
+    "turkish": "kampanya"
+  },
+  {
+    "english": "expert",
+    "turkish": "uzman"
+  },
+  {
+    "english": "about",
+    "turkish": "hakkında"
+  },
+  {
+    "english": "ahead",
+    "turkish": "önde"
+  },
+  {
+    "english": "build",
+    "turkish": "inşa etmek"
+  },
+  {
+    "english": "compiler",
+    "turkish": "derleyici"
   }
 ]
