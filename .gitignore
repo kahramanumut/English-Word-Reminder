@@ -483,3 +483,6 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,aspnetcore
+/EnglishWordReminder/aws-lambda-tools-defaults.json
+/EnglishWordReminder/appsettings.Test.json
+/EnglishWordReminder/appsettings.Prod.json
