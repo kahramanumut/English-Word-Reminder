@@ -1,11 +1,6 @@
 ﻿using EnglishWordReminder.Models;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
 using System.Text.Json;
-using System.Threading.Tasks;
 using EnglishWordReminder.Extensions;
 using Telegram.Bot;
 using Telegram.Bot.Types.Enums;

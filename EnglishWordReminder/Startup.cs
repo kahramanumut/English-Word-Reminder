@@ -1,67 +1,36 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Coravel;
-using EnglishWordReminder.Jobs;
 using EnglishWordReminder.Manager;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Telegram.Bot;
 
 namespace EnglishWordReminder
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup()
         {
-            Configuration = configuration;
+            Configuration = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
+            .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", optional: false, reloadOnChange: true)
+            .AddEnvironmentVariables()
+            .Build();
         }
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
+        public IServiceProvider ConfigureServices()
         {
-            services.AddSingleton<BotManager>();
-            services.AddScoped<WordQuestionJob>();
-            services.AddScoped<FillBlankJob>();
-            services.AddScheduler();
-            services.AddControllers();
+            var services = new ServiceCollection();
+            services.AddSingleton<IConfiguration>(Configuration);
+
+            ConfigureApplicationServices(services);
+            IServiceProvider provider = services.BuildServiceProvider();
+
+            return provider;
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void ConfigureApplicationServices(IServiceCollection services)
         {
-            var provider = app.ApplicationServices;
-            provider.UseScheduler(scheduler =>
-            {
-                scheduler.Schedule<WordQuestionJob>()
-                .EveryThirtyMinutes();
-
-                scheduler.Schedule<FillBlankJob>()
-                //.Cron("* * * * *");
-                .Cron("0 */6 * * *");
-            });
-
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            services.AddSingleton<BotManager>();
         }
     }
 }

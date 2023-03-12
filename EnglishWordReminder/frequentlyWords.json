@@ -1,14 +1,5 @@
 [
   {
-    {"english": "surgery",
-    "turkish": "ameliyat"
-    },
-   {"english": "needle",
-    "turkish": "iğne"
-   },
-  {"english": "calm",
-    "turkish": "sakin"
-  },
     "english": "abandon",
     "turkish": "terk etmek"
   },
@@ -159,6 +150,10 @@
   {
     "english": "aircraft",
     "turkish": "uçak"
+  },
+  {
+    "english": "alarm",
+    "turkish": "alarm"
   },
   {
     "english": "alien",
@@ -2186,7 +2181,7 @@
   },
   {
     "english": "grade",
-    "turkish": "derece"
+    "turkish": "puanlamak"
   },
   {
     "english": "gradually",
@@ -3009,6 +3004,10 @@
     "turkish": "kip"
   },
   {
+    "english": "model",
+    "turkish": "model"
+  },
+  {
     "english": "modest",
     "turkish": "mütevazı"
   },
@@ -3066,7 +3065,7 @@
   },
   {
     "english": "multiply",
-    "turkish": "çarpmak"
+    "turkish": "yayılmak"
   },
   {
     "english": "mysterious",
@@ -3157,6 +3156,10 @@
     "turkish": "sayısız"
   },
   {
+    "english": "nursing",
+    "turkish": "bakma"
+  },
+  {
     "english": "nutrition",
     "turkish": "beslenme"
   },
@@ -3178,7 +3181,7 @@
   },
   {
     "english": "obligation",
-    "turkish": "yükümlülük"
+    "turkish": "yüküm"
   },
   {
     "english": "observation",
@@ -3726,7 +3729,7 @@
   },
   {
     "english": "random",
-    "turkish": "rastgele"
+    "turkish": "rasgele"
   },
   {
     "english": "range",
@@ -3882,11 +3885,11 @@
   },
   {
     "english": "remark",
-    "turkish": "açıklama"
+    "turkish": "belirtm"
   },
   {
     "english": "remarkable",
-    "turkish": "dikkate değer"
+    "turkish": "dikkat"
   },
   {
     "english": "remarkably",
@@ -4718,7 +4721,7 @@
   },
   {
     "english": "thoroughly",
-    "turkish": "iyice"
+    "turkish": "adamakıllı"
   },
   {
     "english": "threat",
@@ -5171,29 +5174,5 @@
   {
     "english": "zone",
     "turkish": "kuşak"
-  },
-  {
-    "english": "campaign",
-    "turkish": "kampanya"
-  },
-  {
-    "english": "expert",
-    "turkish": "uzman"
-  },
-  {
-    "english": "about",
-    "turkish": "hakkında"
-  },
-  {
-    "english": "ahead",
-    "turkish": "önde"
-  },
-  {
-    "english": "build",
-    "turkish": "inşa etmek"
-  },
-  {
-    "english": "compiler",
-    "turkish": "derleyici"
   }
 ]
