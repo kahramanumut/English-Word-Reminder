@@ -14,7 +14,6 @@
 	  <None Remove="appsettings.Development.json" />
 	  <None Remove="appsettings.Prod.json" />
 	  <None Remove="frequentlyWords.json" />
-	  <None Remove="sampleFillBlanks.json" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Content Include="appsettings.Development.json">
@@ -24,9 +23,6 @@
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </Content>
 	  <Content Include="frequentlyWords.json">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </Content>
-	  <Content Include="sampleFillBlanks.json">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </Content>
 	</ItemGroup>

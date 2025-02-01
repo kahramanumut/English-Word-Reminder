@@ -21,10 +21,7 @@ public class Function
 
     public async Task<string> FunctionHandler(ILambdaContext context)
     {
-        if (DateTime.Now.Hour % 2 == 0)
-            await _botManager.SendWordQuestion(Models.QuestionTypeEnum.WordEnglishToTurkish);
-        else
-            await _botManager.SendWordQuestion(Models.QuestionTypeEnum.WordTurkishToEnglish);
+        await _botManager.SendWordQuestion();
 
         return "";
     }

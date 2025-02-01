@@ -4,68 +4,67 @@ using System.Text.Json;
 using EnglishWordReminder.Extensions;
 using Telegram.Bot;
 using Telegram.Bot.Types.Enums;
-
+using EnglishWordReminder.Services;
 namespace EnglishWordReminder.Manager
 {
     public class BotManager
     {
         private static List<WordModel> _wordList;
-        private static List<QuestionModel> _fillInTheBlanks;
         private readonly TelegramBotClient _botClient;
         private readonly string _channelId;
 
         public BotManager(IConfiguration configuration)
         {
             _wordList = JsonSerializer.Deserialize<List<WordModel>>(File.ReadAllText("frequentlyWords.json"));
-            _fillInTheBlanks = JsonSerializer.Deserialize<List<QuestionModel>>(File.ReadAllText("sampleFillBlanks.json"));
             _botClient = new TelegramBotClient(configuration.GetSection("BotKey").Value);
             _channelId = configuration.GetSection("ChannelId").Value;
         }
 
-        public async Task SendWordQuestion(QuestionTypeEnum questionType)
+        public async Task SendWordQuestion()
         {
-            var questionWordList = _wordList.PickRandom(5).ToList();
-            
-            var question = new QuestionModel();
+            var questionWordList = _wordList
+            .Where(w => w.Level == "A2" || w.Level == "B1" || w.Level == "B2" || w.Level == "C1" || w.Level == "C2")
+            .PickRandom(5)
+            .ToList();
 
-            switch (questionType)
+            var question = new QuestionModel(questionWordList);
+
+            var pollQuestion = $"📚 {question.Definition}";
+            var pollMessage = await _botClient.SendPollAsync(
+                chatId: _channelId,
+                question: pollQuestion,
+                options: question.Options,
+                correctOptionId: question.AnswerId,
+                type: PollType.Quiz
+            );
+
+            var detailedMessage =
+                $"📊 Level: {question.Level}\n\n" +
+                $"📌 Type: {question.Type}\n\n" +
+                $"📝 Example: {question.Example}\n\n" +
+                $"🔊 Phonetic: {question.Phonetic}\n\n" +
+                $"🔄 Synonyms: {question.Synonyms}\n\n";
+
+            await _botClient.SendTextMessageAsync(
+                chatId: _channelId,
+                text: detailedMessage,
+                parseMode: ParseMode.Html,
+                replyToMessageId: pollMessage.MessageId
+            );
+
+            var googleTTS = new GoogleTTS();
+
+            var audioStream = await googleTTS.GetAudioStream(question.Options[question.AnswerId]);
+            if (audioStream != null)
             {
-                case QuestionTypeEnum.WordEnglishToTurkish:
-                    question.Question = questionWordList[0].English;
-                    question.Options.Add(questionWordList[0].Turkish);
-                    question.Options.Add(questionWordList[1].Turkish);
-                    question.Options.Add(questionWordList[2].Turkish);
-                    question.Options.Add(questionWordList[3].Turkish);
-                    break;
-                case QuestionTypeEnum.WordTurkishToEnglish:
-                    question.Question = questionWordList[0].Turkish;
-                    question.Options.Add(questionWordList[0].English);
-                    question.Options.Add(questionWordList[1].English);
-                    question.Options.Add(questionWordList[2].English);
-                    question.Options.Add(questionWordList[3].English);
-                    break;
-                default:
-                    break;
+                await _botClient.SendVoiceAsync(
+                       chatId: _channelId,
+                       voice: new Telegram.Bot.Types.InputFiles.InputOnlineFile(audioStream),
+                       caption: "Word Pronunciation",
+                       replyToMessageId: pollMessage.MessageId
+                   );
             }
 
-            question.Options = question.Options.OrderBy(x => Guid.NewGuid()).ToList();
-            question.AnswerId = question.Options.FindIndex(x => x == questionWordList[0].English || x == questionWordList[0].Turkish);
-
-            await _botClient.SendPollAsync(_channelId, question.Question, question.Options, correctOptionId: question.AnswerId, type: PollType.Quiz, explanation: $"Hadi <a href=\"https://tureng.com/en/turkish-english/{question.Question}\">buradan</a> doğru cevaba bakalım", explanationParseMode: ParseMode.Html);
-
-        }
-
-        public async Task SendFillInTheQuestion()
-        {
-            QuestionModel question = _fillInTheBlanks.PickRandom(1).FirstOrDefault();
-
-            int firstHyphenIndex = question.Question.IndexOf('_');
-            int lastHyphenIndex = question.Question.LastIndexOf('_');
-
-            string allSentence = question.Question.Remove(firstHyphenIndex, (lastHyphenIndex - firstHyphenIndex+1)).Insert(firstHyphenIndex, question.Options[question.AnswerId]);
-            string translateUrl = $"https://translate.google.com/?hl=tr&sl=en&tl=tr&text={allSentence}&op=translate";
-
-            await _botClient.SendPollAsync(_channelId, question.Question, question.Options, correctOptionId: question.AnswerId, type: PollType.Quiz, explanation: $"Hadi <a href=\"{translateUrl}\">buradan</a> çevirisine bakalım", explanationParseMode: ParseMode.Html);
         }
     }
 }
